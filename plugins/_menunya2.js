@@ -8,27 +8,24 @@
     let uptime = clockString(_uptime)
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
     let ar = ['list', 'menu']
-    let yo = `Hai @${m.sender.split('@')[0]} 👋`
-    let tio = `*© RTXZY-TEAM*`
-    let liv = `CLICK HERE`
+    let yo = `Hai @${m.sender.split('@')[0]}`
+    let tio = `*мυʀѕι∂ вσт-χмℓ*`
+    let liv = `Click Here`
     const sections = [ {
-      	title: `Aktif ${uptime} || Jam ${time} WIB`,
+      	title: `Aktif selama : ${uptime} | Waktu : ${time} WIB`,
         rows: [
-	{title: `All Menu`, rowId: `.a `},//, description: ``},
-        {title: `All Menu V2`, rowId: `.pay `},//, description: ``},
-        {title: `Owner`, rowId: `#owner `},//, description: ``},
-        {title: `Donasi`, rowId: `#donasi `},//, description: ``},
-        {title: `Script`, rowId: `#sc `},//, description: ``},
-        {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
-        {title: `Speed`, rowId: `#speed `},//, description: ``},
-        {title: `List Texpro Maker`, rowId: `#textpro `},//, description: ``},
+	{title: `ѕємυα ρєʀιɴтαн`, rowId: `.a `},//, description: ``},
+        {title: `ρємιℓιк вσт`, rowId: `#owner `},//, description: ``},
+        {title: `ᴅσɴαѕι`, rowId: `#donasi `},//, description: ``},
+        {title: `ѕᴄʀιρт`, rowId: `#sc `},//, description: ``},
+        {title: `ѕρєє∂ вσт`, rowId: `#speed `},//, description: ``},
         ]
  } ]
 
   const listMessage = {
   text: tio,
   mentions: [m.sender],
-  footer: 'Jika menemukan bug,error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.',
+  footer: 'мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server yang sangat kencang, tapi tidak terlalu kencang-kencang banget.',
   title: yo,
   buttonText: liv,
   sections
