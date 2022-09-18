@@ -6,38 +6,38 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let tags = {
-  'main': 'MENU UTAMA',
-  'downloader': 'MENU DOWNLOADER',
-  'download': 'SOUNDCLOUD',
-  'sticker': 'MENU CONVERT',
-  'advanced': 'ADVANCED',
-  'absen': 'MENU ABSEN',
-  'anime': 'MENU ANIME',
-  'xp': 'MENU EXP',
-  'fun': 'MENU FUN',
-  'game': 'MENU GAME',
-  'github': 'MENU GITHUB',
-  'group': 'MENU GROUP',
-  'image': 'MENU IMAGE',
-  'info': 'MENU INFO',
-  'internet': 'INTERNET',
-  'islam' : 'MENU ISLAMI',
-  'kerang': 'MENU KERANG',
-  'maker': 'MENU MAKER',
-  'owner': 'MENU OWNER',
-  'Pengubah Suara': 'PENGUBAH SUARA',
-  'premium': 'PREMIUM MENU',
-  'quotes' : 'MENU QUOTES',
-  'rpg': 'MENU RPG',
-  'stalk': 'MENU STALK',
-  'shortlink': 'SHORT LINK',
-  'tools': 'MENU TOOLS',
-  'vote': 'MENU VOTING',
-  'nsfw': 'NSFW MENU', 
-  'asupan': 'ASUPAN MENU', 
-  'random': 'RANDOM MENU', 
-  'textpro': 'TEXT PRO MENU', 
-  'photooxy': 'PHOTO OXY MENU', 
+  'main': 'Utama',
+  'downloader': 'Downloader',
+  'download': 'Sound',
+  'sticker': 'Convert',
+  'advanced': 'Advanced',
+  'absen': 'Absen',
+  'anime': 'Anime',
+  'xp': 'Exp',
+  'fun': 'Fun',
+  'game': 'Game',
+  'github': 'Github',
+  'group': 'Grup',
+  'image': 'Image',
+  'info': 'Info',
+  'internet': 'Internet',
+  'islam' : 'Islam',
+  'kerang': 'Kerang ajaib',
+  'maker': 'Maker',
+  'owner': 'Owner',
+  'Pengubah Suara': 'Pengubah Suara',
+  'premium': 'Premiun',
+  'quotes' : 'Quotes',
+  'rpg': 'Epic RPG',
+  'stalk': 'Stalk',
+  'shortlink': 'Short Link',
+  'tools': 'Tools',
+  'vote': 'Votting',
+  'nsfw': 'NSFW', 
+  'asupan': 'Asupan', 
+  'random': 'Random', 
+  'textpro': 'Text Pro', 
+  'photooxy': 'Photo Oxy', 
 }
 const defaultMenu = {
   before: `
@@ -184,24 +184,24 @@ const ftroli = {
                             itemCount : 9999999999999,
                             status: 1,
                             surface : 1,
-                            message: '© TioXd Official',
-                            orderTitle: 'MENU',
+                            message: 'мυʀѕι∂ вσт-χмℓ',
+                            orderTitle: 'Menu',
                             thumbnail: await (await fetch('https://telegra.ph/file/3911d7aaaa8733314f70f.png')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
           
                           }
                         }
                       }
-await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFOBOT', '.info', 'LISTMENU', '.menu', m, {  
+await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/b342e81c83d8bb2206869.jpg')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFOBOT', '.info', 'LISTMENU', '.menu', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'Bot Wahatsapp Multi Device',  
-              body: '© TioXd', 
-              description: 'Made With ❤️ TioXd', 
+              body: 'ʙʏ ᴍᴜʀsɪᴅ xᴍʟ', 
+              description: 'мυʀѕι∂ вσт-χмℓ', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
-           mediaUrl: `https://www.facebook.com/tio.permana.50999` 
+           mediaUrl: `https://www.facebook.com/mursid.st` 
           }  
        }  
       })
