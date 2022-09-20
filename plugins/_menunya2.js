@@ -9,7 +9,7 @@
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
     let ar = ['list', 'menu']
     let yo = `Hai @${m.sender.split('@')[0]}`
-    let tio = `*мυʀѕι∂ вσт-χмℓ*`
+    let tio = `мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`
     let liv = `Click Here`
     const sections = [ {
       	title: `aktif selama : ${uptime} | waktu : ${time} WIB`,
@@ -27,7 +27,7 @@
   const listMessage = {
   text: tio,
   mentions: [m.sender],
-  footer: 'мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server yang sangat kencang, tapi tidak terlalu kencang-kencang banget.',
+  footer: '*мυʀѕι∂ вσт-χмℓ*',
   title: yo,
   buttonText: liv,
   sections
