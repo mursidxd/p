@@ -12,13 +12,15 @@
     let tio = `*мυʀѕι∂ вσт-χмℓ*`
     let liv = `Click Here`
     const sections = [ {
-      	title: `Aktif selama : ${uptime} | Waktu : ${time} WIB`,
+      	title: `aktif selama : ${uptime} | waktu : ${time} WIB`,
         rows: [
 	{title: `ѕємυα ρєʀιɴтαн`, rowId: `.a `},//, description: ``},
         {title: `ρємιℓιк вσт`, rowId: `#owner `},//, description: ``},
+        {title: `ᴡєвѕιтє`, rowId: `#web `},//, description: ``},
         {title: `ᴅσɴαѕι`, rowId: `#donasi `},//, description: ``},
         {title: `ѕᴄʀιρт`, rowId: `#sc `},//, description: ``},
         {title: `ѕρєє∂ вσт`, rowId: `#speed `},//, description: ``},
+        {title: `ɪɴƒσ мυʀѕι∂`, rowId: `#infomursid `},//, description: ``},
         ]
  } ]
 
