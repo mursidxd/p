@@ -6,13 +6,14 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 const sections = [ {
 	title: `Pilih Salah Satu Menu `,
 	rows: [
-	   {title: `Speed`, rowId: `#speed `},//, description: ``},
-        {title: `Speedtest`, rowId: `#speedtest `},//, description: ``},
-        {title: `Script`, rowId: `#sc `},//, description: ``},
-         {title: `Thanks`, rowId: `#tqto `},//, description: ``},
-         {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
-         {title: `Website Official`, rowId: `#web `},//, description: ``},
-         {title: `Donasi`, rowId: `#donasi `},//, description: ``},
+	   {title: `кєᴄєραтαɴ вσт`, rowId: `#speed `},//, description: `Menampilkan kecepatan bot`},
+        {title: `ѕρєє∂ тєѕт`, rowId: `#speedtest `},//, description: `Menampilkan uji kecepatan server bot`},
+        {title: `ѕσυʀᴄє ᴄσ∂є`, rowId: `#sc `},//, description: `Script bot whatsapp`},
+         {title: `тнαɴкѕ`, rowId: `#tqto `},//, description: `Terima kasih banyak semuanya`},
+         {title: `gʀυρ σƒƒιᴄιαℓ`, rowId: `#gcbot `},//, description: `Grup masih dalam pengembangan`},
+         {title: `ᴡєвѕιтє`, rowId: `#web `},//, description: `Website owner`},
+         {title: `ᴅσɴαѕι`, rowId: `#donasi `},//, description: `Donasi untuk membantu bot, agar selau online`},
+         {title: `ɪɴƒσ мυʀѕι∂`, rowId: `#infomursid `},//, description: ``},
         ]
  } ]
 
