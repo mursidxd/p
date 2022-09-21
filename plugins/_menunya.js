@@ -1,6 +1,7 @@
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 process.env.TZ = 'Asia/Jakarta'
 let fs = require('fs')
+let vn = './mp3/anuu.opus'
 let path = require('path')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
@@ -192,19 +193,22 @@ const ftroli = {
                           }
                         }
                       }
-await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/b342e81c83d8bb2206869.jpg')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'ρємιℓιк вσт', '.owner', 'ѕємυα ρєʀιɴтαн', '.menu', m, {  
+await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/b342e81c83d8bb2206869.jpg')).buffer(),  ', text, 'ρємιℓιк вσт', '.owner', 'ѕємυα ρєʀιɴтαн', '.menu', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
-              title: 'Bot Wahatsapp Multi Device',  
+              title: 'мυʀѕι∂ вσт-χмℓ',  
               body: 'ʙʏ ᴍᴜʀsɪᴅ xᴍʟ', 
               description: 'мυʀѕι∂ вσт-χмℓ', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
-           mediaUrl: `https://www.facebook.com/mursid.st` 
+            thumbnail: await (await fetch('https://telegra.ph/file/d8de4f3888470ab66ffb3.png')).buffer(), 
+           mediaUrl: `https://www.instagram.com/mursid.st` 
           }  
        }  
       })
+await conn.sendFile(m.chat, vn, 'anuu.opus', null, m, true, {
+type: 'audioMessage', 
+ptt: true})
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu server sedang error', m)
     throw e
