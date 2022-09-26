@@ -1,12 +1,15 @@
-let xfar = require('xfarr-api')
-let handler = async (m, { usedPrefix, command, conn, args }) => {
-	 	  if (!args[0]) throw `Gunakan format: ${usedPrefix}${command} naruto`
-xfar.Pinterest(args[0]).then(async data => {
-let pincpt = `🔗Link media : ${data.url}`
-conn.sendFile(m.chat,data.url, 'pin.jpg', pincpt,m)})
+import { pinterest } from '@bochilteam/scraper'
+
+let handler = async(m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `Example use ${usedPrefix + command} minecraft`
+  const json = await pinterest(text)
+  conn.sendFile(m.chat, json.getRandom(), 'pinterest.jpg', `
+*Hasil pencarian*
+${text}
+`.trim(), m)
 }
 handler.help = ['pinterest <keyword>']
-handler.tags = ['internet', 'downloader']
+handler.tags = ['internet']
 handler.command = /^(pinterest)$/i
 
-module.exports = handler
+export default handler
