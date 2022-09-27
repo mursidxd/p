@@ -40,6 +40,26 @@ const defaultMenu = {
   body: '│⬡ %cmd %islimit %isPremium',
   footer: '└──────────⬣\n',
   after: `
+┌──  *BIG THANKS TO*
+│• Allah SWT
+│• Nurutomo as wabot-aq
+│• Istikmal as BochilGaming
+│• Ariffb as stikerin
+│• Aguz Familia
+│• Ziv San
+│• the.sad.boy01
+│• Nayla Hanifah
+│• Syahrul
+│• Vanesha Desu
+│• Aniq12
+│• Amirul Dev
+│• Rasell Comel
+|• Krizynofc
+│• Kurukuumd
+│• Mursid S
+│• All Creator Bot
+└───────────
+
 *%npmname@^%version*
 ${'```%npmdesc```'}
 `,
