@@ -9,14 +9,14 @@ global.prems = ['6288233832771']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
 global.nameowner = 'Mursid S' // isi nama kalian bebas
-global.numberowner = '6288233832771' // isi nomor kalian dengan awalan seperti di contoh 
+global.numberowner = "6288233832771", "6289674452300" // isi nomor kalian dengan awalan seperti di contoh 
 global.dana = '6288233832771' // isi dengan nomor dana yg kamu punya 
 global.pulsa = '6289674452300' // isi dengan nomor pulsa hp kalian
 global.gopay = '6288233832771'
 
 //Name Bot & Grouplink//
 global.namebot = 'мυʀѕι∂ вσт-χмℓ'
-global.gc = 'https://chat.whatsapp.com'
+global.gc = 'gc bot masih dalam tahap pengembangan'
 global.web = 'https://instagram.com/mursid.st' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 
 //Tanpilan wm Bot //
