@@ -1,4 +1,4 @@
-const qrmursid = "https://telegra.ph/file/b1e8e6a876b326a691a8d.jpg"
+const qrmursid = "https://telegra.ph/file/c8a8cabe89cda01e0fec9.jpg"
 
 let handler = async (m, { conn, usedPrefix }) => conn.sendButtonImg(m.chat, qrmursid, `
 ┏──「 Donasi • E-money 」─⬣
