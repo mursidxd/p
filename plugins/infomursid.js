@@ -2,7 +2,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 conn.reply(m.chat, `
 ╭─˗ˏˋ *INFORMASI OWNER* ´ˎ˗
 │ ✎ _Nama_ : Mursid S
-│ ✎ _Sekolah_ : SMKN 2 Wonosari
+│ ✎ _Hobi_ : Ngoding, suka kamu, gamer/Kang recode biasa bg
 │ ✎ _Umur_ : 18
 │ ✎ _Asal_ : Yogyakarta
 │ ✎ _Status_ : Pelajar SMK
@@ -16,6 +16,8 @@ conn.reply(m.chat, `
 │    instagram.com/mursid.st
 │ ✎ _WhatsApp_ :
 │    wa.me/6288233832771
+│ ✎ _Website_ :
+│ ✎ _https://mursidxml.mursidxd.repl.co_
 ╰───────────────────
 `.trim(), m)
 }
